@@ -36,7 +36,7 @@
     <nav class="nav-center">
         <a class="nav-item" href="#about">About</a>  
         {{ if .Site.Params.showprojects }}
-        <a class="nav-item" href="#projects">News</a>  
+        <a class="nav-item" href="#news">News</a>  
         {{ end }}
         {{ if .Site.Params.showblog }}
         <a class="nav-item" href="#blog">Blog>  
@@ -77,7 +77,7 @@
 
 <!-- Now for some cool projects -->
     {{ if .Site.Params.showprojects }}
-    <div class="section" id="projects">
+    <div class="section" id="news">
         {{ partial "projects.html" . }}
     </div><!-- End Projects section -->
 
@@ -95,7 +95,7 @@
     {{ end }}
 
 <!-- Numbat visitors -->
-<div class="section">
+<div class="section" id="visitor">
     <div class="container">
     <h2 class="title is-2 has-text-centered">Visitor</h2>
         {{ range .Data.Pages }}
