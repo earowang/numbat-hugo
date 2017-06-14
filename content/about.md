@@ -5,4 +5,4 @@ title = "about"
 
 +++
 
-
+The group is lead by [Rob Hyndman](http://robjhyndman.com/hyndsight/) and [Di Cook](http://dicook.github.io), and members list can be seen at [the Google groups site](https://groups.google.com/forum/#!members/numbats). Business Analytics in the Monash Business School is a member of [Monash Data Science and Business Analytics](http://www.mdsba.net). Additional seminars occur under this umbrella across the campus.

@@ -1,3 +1,32 @@
 .bold-title {
-  font-size:5rem
+  font-size:5rem;
+}
+
+.title{color: rgb(142, 64, 26)}
+.subtitle{color: rgb(142, 64, 26)}
+h1{color: rgb(142, 64, 26);font-family:Nunito Sans,sans-serif}
+h2{color: rgb(142, 64, 26);font-family:Nunito Sans,sans-serif}
+
+html {
+  background-color: rgb(12, 12, 12);
+  font-size:16px;
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-font-smoothing:antialiased;
+  min-width:300px;
+  overflow-x:hidden;
+  overflow-y:scroll;
+  text-rendering:optimizeLegibility
+}
+
+body {
+  /* color: rgb(142, 64, 26); */
+  color: rgb(232, 228, 228);
+  font-size:1rem;
+  font-weight:400;
+  line-height:1.5
+}
+
+strong {
+  color: rgb(232, 228, 228);
+  font-weight:700
 }

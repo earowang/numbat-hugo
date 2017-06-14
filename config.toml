@@ -21,7 +21,7 @@ firstname     = "NUMBAT" # First name shows in introduction on main page
 tagline       = "News and Updates of the Monash Business Analytics Team" # Appears after the introduction
 introheight   = "medium" # Input either 'medium' or 'large' or 'fullheight'
 theme         = "dark" # Choose 'light' or 'dark'
-avatar        = "img/profile.png" # Path to image in static folder eg. img/avatar.png 
+avatar        = "img/numbat.png" # Path to image in static folder eg. img/avatar.png 
 email         = "" # Shows in contact section, or leave blank to omit
 localtime     = true # Show your current local time in contact section
 timezone      = "Australia/Melbourne" # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -33,28 +33,28 @@ faviconfile   = "img/fav.ico"
 highlightjs   = true # Syntax highlighting
 lang          = "en"
 footertext    = "Copyright ©2016-7 Monash University Business Analytics Team, Econometrics and Business Statistics, Monash University, Australia" # Text to show in footer (overrides default text)
-fadein        = true # Turn on/off the fade-in effect
+fadein        = false # Turn on/off the fade-in effect
 extracssfiles = ["css/custom.css"]
 
-showblog        = true # Show Blog section on home page
+showblog        = false # Show Blog section on home page
 showallposts    = false # Set 'true' to list all posts on home page, or set 'false' to link to separate blog list page
-showlatest      = true # Show latest blog post summary
-sharebuttons    = true # On post pages, show share this social buttons
+showlatest      = false # Show latest blog post summary
+sharebuttons    = false # On post pages, show share this social buttons
 
 showprojects    = true # Show Projects section on home page
 
 # This is your projects section. Three images of the same dimensions will look the nicest. If images are omitted, text links will be shown.
-project1link    = "#"
+project1link    = "http://www.datasciencemelbourne.com/medascin2017/"
 project1img     = "img/project1.jpg"
-project1title   = "Project 1"
+project1title   = "WOMBAT MeDaScin 2017"
 
-project2link    = "#"
-project2img     = "img/project2.jpg"
-project2title   = "Project 2"
+project2link    = "http://www.monash.edu/news/articles/team-profile-monash-business-analytics-team"
+project2img     = "img/numbat.png"
+project2title   = "Feature in Monash newsletter The Insider"
 
-project3link    = "#"
-project3img     = "img/project3.jpg"
-project3title   = "Project 3"
+project3link    = "http://dicook.org/WOMBAT/"
+project3img     = "img/wombat-icon-web.png"
+project3title   = "WOMBAT 2016"
 
 
 # Social icons appear in introduction and contact section. Add as many more as you like.
