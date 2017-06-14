@@ -1,4 +1,4 @@
-baseurl             = "numbat.netlify.com/" # Must end with /
+baseurl             = "https://numbat.netlify.com/" # Must end with /
 languageCode        = "en-us"
 title               = "NUMBAT"
 theme               = "hugo-theme-introduction"
