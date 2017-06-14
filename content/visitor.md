@@ -12,3 +12,5 @@ title = "visitor"
 * Jan 23-Feb 23 2017 **Natalia Da Silva**, Iowa State University
 * Nov 13-18 2016 **Hadley Wickham**, RStudio Inc
 * Nov 13-18 2016 **Nick Tierney**, Queensland University of Technology
+
+[Previous visitors](blog/visitors-in-2015-2016)
