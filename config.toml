@@ -33,7 +33,7 @@ faviconfile   = "img/fav.ico"
 highlightjs   = true # Syntax highlighting
 lang          = "en"
 footertext    = "Copyright ©2016-7 Monash University Business Analytics Team, Econometrics and Business Statistics, Monash University, Australia" # Text to show in footer (overrides default text)
-fadein        = false # Turn on/off the fade-in effect
+fadein        = true # Turn on/off the fade-in effect
 extracssfiles = ["css/custom.css"]
 
 showblog        = false # Show Blog section on home page
