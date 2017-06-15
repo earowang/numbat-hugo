@@ -43,6 +43,7 @@
         {{ end }}
         <a class="nav-item" href="#visitor">Visitor</a> 
         <a class="nav-item" href="#calendar">Calendar</a> 
+        <a class="nav-item" href="#bettong">Bettong</a> 
     </nav>
     <hr>
     </div><!-- Done with nav bar -->
@@ -136,6 +137,20 @@
       </script>
     </div><!-- End Calendar container-->
 </div>
+
+<div class="container"><hr></div>
+
+<!-- BETTONG -->
+<div class="section" id="bettong">
+    <div class="container">
+    <h2 class="title is-2 has-text-centered">BETTONG</h2>
+        {{ range .Data.Pages }}
+            {{if eq .Title "bettong" }} 
+                    {{.Content}}
+                {{end}}
+            {{ end }}
+    </div><!-- End BETTONG container-->
+</div><!-- End BETTONG section -->
 
 <!-- <!&#45;&#45; Let's chat, shall we? &#45;&#45;> -->
 <!-- <div class="section" id="contact"> -->
